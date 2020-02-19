@@ -1,0 +1,25 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "Image": {
+    "Name": "paretatech/rmq-monitoring",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "HostPort": 15672,
+      "ContainerPort": 15672
+    },
+    {
+      "HostPort": 5672,
+      "ContainerPort": 5672
+    },
+    {
+      "HostPort": 4369,
+      "ContainerPort": 4369
+    },
+    {
+      "HostPort": 25672,
+      "ContainerPort": 25672
+    }
+  ]
+}
